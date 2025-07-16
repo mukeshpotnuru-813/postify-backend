@@ -29,7 +29,7 @@ app.listen(PORT,()=>{
 
 const cors = require('cors');
 app.use(cors({
-    origin: '*', // or your frontend URL
+    origin: 'https://postify-frontend-1cls.onrender.com', // or your frontend URL
     credentials: true
 }));
 // app.listen is used to run the app.(it tells app please run.)
